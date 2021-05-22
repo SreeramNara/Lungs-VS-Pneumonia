@@ -8,8 +8,6 @@ from tensorflow.keras.optimizers import RMSprop
 from keras.preprocessing import image
 from google.colab import files
 
-%matplotlib inline
-
 model = tf.keras.models.Sequential([
   
     # Note the input shape is the desired size of the image 300x300 with 3 bytes color
